@@ -12,8 +12,8 @@ public class CSVRepository<X extends Entity>
 {
 	private String filename;
 	private Class entityClass;
-	List<X> content = new List<X>();
-	String propriety;
+	private List<X> content = new List<X>();
+	private String propriety;
 	
 	public CSVRepository(String filename, Class entityClass) throws Exception
 	{
